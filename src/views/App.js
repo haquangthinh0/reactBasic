@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         >
           Learn React 123
         </a>
+        <h1 className="title">Tiêu đề</h1>
       </header>
     </div>
   );
